@@ -1,0 +1,251 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:400,500,700");
+html,
+body {
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+  font-size: 62.5%;
+  font-size: 10px;
+}
+.nav {
+  width: 100%;
+  height: 65px;
+  position: fixed;
+  line-height: 65px;
+  text-align: center;
+}
+
+.nav div.logo {
+  float: left;
+  width: auto;
+  height: auto;
+  padding-left: 1rem; 
+}
+
+.nav div.logo a {
+  text-decoration: none;
+  color: rgb(204, 188, 118);
+  font-size: 2.5rem;
+}
+
+.nav div.logo a:hover {
+  color: #00e676;
+}
+
+.nav div.main_list {
+  height: 65px;
+  float: right;
+}
+
+.nav div.main_list ul {
+  width: 100%;
+  height: 65px;
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav div.main_list ul li {
+  width: auto;
+  height: 65px;
+  padding: 0;
+  padding-right: 3rem;
+}
+
+.nav div.main_list ul li a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  line-height: 65px;
+  font-size: 2.4rem;
+}
+
+.nav div.main_list ul li a:hover {
+  color: #ffffff;
+}
+/* Home section */
+.home {
+  width: 100%;
+  height: 100%;
+  /* background-image: url(https://images.unsplash.com/photo-1498550744921-75f79806b8a7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b0f6908fa5e81286213c7211276e6b3d&auto=format&fit=crop&w=1500&q=80);  
+    background-position: center top;
+	background-size:cover; */
+}
+.nav {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.black {
+  padding: 0;
+  background-color: rgb(245, 180, 83);
+}
+/* image slider */
+#slider{
+  overflow: hidden;
+}
+#slider figure{
+  z-index: -1;
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left:0;
+  animation: 20s slider infinite;
+}
+#slider figure img{
+  /* height: 50%; */
+  width: 20%;
+  float: left;
+}
+@keyframes slider {
+  0%{
+    left:0;
+  }
+  20%{
+    left: 0;
+  }
+  25%{
+    left: -100%;
+  }
+  45%{
+    left: -100%;
+  }
+  50%{
+    left: -200%;
+  }
+  70%{
+    left: -200%;
+  }
+  75%{
+    left: -300%;
+  }
+  95%{
+    left: -300%;
+  }
+  100%{
+    left: -400%;
+  }
+}
+#purpose{
+  margin-top: 5px;
+  margin-bottom: 20px;
+  margin-left: 500px;
+  margin-right: 500px;
+  background-color: beige;
+  text-align: center;
+  font-size: 50px;
+  padding: 15px;
+  border: 3px solid aqua;
+  border-radius: 34px;
+}
+#explain{
+  padding: 10px;
+  text-align: center;
+  background-color: beige;
+  font-size: 30px;
+}
+body{
+  z-index: -1;
+  background-color:rgb(243, 211, 169);
+}
+/* experiment */
+.main-section {
+  padding-top: 40px;
+}
+.main-content, .main-section {
+  z-index: -1;
+  margin: 7% auto 0;
+  position: relative;
+  background: #fff;
+  padding-bottom: 30px;
+  max-width: 1260px;
+  width: 95%;
+}
+h2 {
+  margin-bottom: 30px;
+  font-size: 4rem;
+  margin-top: -18px;
+}
+ .rail_landing .item {
+  display: inline-block;
+  width: 32.9%;
+  padding: 0 15px;
+  margin-bottom: 40px;
+  vertical-align: top;
+}
+.thumbnail {
+  border: none;
+  padding: 0px;
+}
+a {
+  color: #3e4347;
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
+  -webkit-transition: all 0.3s ease 0s;
+}
+.thumbnail > a > img {
+  width: 100%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+.rail_landing .thumbnail .caption {
+  padding: 10px 10px 5px;
+}
+/* Section footer */
+/* * {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+} */
+.section-5 {
+  /* display: flex; */
+  width: 100%;
+  height: 30vh;
+  background-color: #222;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* .center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+#info{
+  width: 100%;
+  display: flex;
+  height: 50px;
+  flex-direction: row;
+  justify-content:space-around;
+
+}
+.social-media {
+  margin-bottom: 5rem;
+}
+
+.social-media-link {
+  margin: -1rem 3.5rem;
+  padding: 0.7rem;
+  background-color: burlywood;
+  border-radius: 1rem;
+  display: inline-block;
+}
+
+.social-media-link i {
+  font-size: 3rem;
+  color:brown;
+}
+
+/* End of Section 5 */
