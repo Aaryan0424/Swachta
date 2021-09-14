@@ -151,52 +151,6 @@ body{
   z-index: -1;
   background-color:rgb(243, 211, 169);
 }
-/* experiment */
-.main-section {
-  padding-top: 40px;
-}
-.main-content, .main-section {
-  z-index: -1;
-  margin: 7% auto 0;
-  position: relative;
-  background: #fff;
-  padding-bottom: 30px;
-  max-width: 1260px;
-  width: 95%;
-}
-h2 {
-  margin-bottom: 30px;
-  font-size: 4rem;
-  margin-top: -18px;
-}
- .rail_landing .item {
-  display: inline-block;
-  width: 32.9%;
-  padding: 0 15px;
-  margin-bottom: 40px;
-  vertical-align: top;
-}
-.thumbnail {
-  border: none;
-  padding: 0px;
-}
-a {
-  color: #3e4347;
-  text-decoration: none;
-  transition: all 0.3s ease 0s;
-  -webkit-transition: all 0.3s ease 0s;
-}
-.thumbnail > a > img {
-  width: 100%;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-}
-.rail_landing .thumbnail .caption {
-  padding: 10px 10px 5px;
-}
 /* Section footer */
 /* * {
   margin: 0;
