@@ -141,23 +141,22 @@ body {
   border: 3px solid aqua;
   border-radius: 34px;
 }
-#explain{
-  padding: 10px;
-  text-align: center;
+#explain {
+  padding: 45px 13px;
+  text-align: left;
   background-color: beige;
-  font-size: 30px;
+  font-size: 18px;
 }
 body{
   z-index: -1;
   background-color:rgb(243, 211, 169);
 }
-
 #below{
-  background-color: beige;
-  text-align: center;
-  font-size: 30px;
-  margin-top: 20px;
-  padding: 13px;
+background-color: beige;
+text-align: center;
+font-size: 23px;
+margin-top: 90px;
+padding: 24px;
 }
 /* section main content */
 #main{
@@ -184,7 +183,7 @@ body{
 }
 .heading{
   font-weight: bolder;
-  font-size: 25px;
+  font-size: 22px;
 }
 /*chatbox*/
  #Chatbox{
@@ -216,7 +215,7 @@ body{
    margin-bottom: 50px;
    background-color: beige;
    text-align:center;
-   font-size: 30px;
+   font-size: 23px;
    padding: 15px;
 }
 .section-5 {
