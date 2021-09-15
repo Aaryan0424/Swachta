@@ -130,16 +130,17 @@ body {
     left: -400%;
   }
 }
-#purpose{
+#purpose {
   margin-top: 5px;
+  color: white;
   margin-bottom: 20px;
   margin-left: 500px;
   margin-right: 500px;
-  background-color: beige;
+  background-color: #363636;
   text-align: center;
   font-size: 40px;
   padding: 10px;
-  border: 3px solid aqua;
+  border: 3px solid #e097ff;
   border-radius: 34px;
 }
 #explain {
